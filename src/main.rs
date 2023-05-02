@@ -2,6 +2,7 @@ use lambda_http::{run, service_fn, Body, Error, Request, Response};
 use reqwest::Client;
 mod session_scrapper;
 mod session_types;
+
 use crate::session_scrapper::get_new_session;
 /// This is the main body for the function.
 /// Write your code inside it.
